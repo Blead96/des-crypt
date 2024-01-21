@@ -101,8 +101,6 @@ const Encryptor = () => {
             }
 
             setK56(result);
-            // result = result.replace(/(.{7})/g, "$1 ");
-            // setK64Render(result);
         } else {
             console.log("Value Error. String Inputs' lengths are less than 64.");
             setK64("Value Error. Must NOT be less than 64~");
@@ -139,8 +137,6 @@ const Encryptor = () => {
             }
 
             setK48(result);
-            // result = result.replace(/(.{6})/g, "$1 ");
-            // setK48Render(result);
         } else {
             console.log("Value Error. String Input length is less than 64.");
             setK48("Value Error");
